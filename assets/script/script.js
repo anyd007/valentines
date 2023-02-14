@@ -26,9 +26,9 @@ const createSquare =() =>{
 setInterval(createSquare, 150)
 
 var typed = new Typed(".auto-type", {
-    strings:["Kochana Mariolo, z okazji Walentynek chcę Ci podziękować za to, że jesteś ze mną i że dzielimy ze sobą miłość, radość i trudne chwile. Nie wyobrażam sobie życia bez Ciebie. Kocham Cię bardzo i zawsze będę Cię kochał!"],
+    strings:["Kochana Mariolo, z okazji Walentynek chcę Ci podziękować za to,....", "że jesteś ze mną i że dzielimy ze sobą miłość, radość i trudne chwile.", "Nie wyobrażam sobie życia bez Ciebie. Kocham Cię bardzo...", "zawsze będę Cię kochał!"],
     typeSpeed: 100,
-    backSpeed: 150,
-    loop: false,
+    backSpeed: 30,
+    loop: true,
     shuffle: true,
 })
