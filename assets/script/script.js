@@ -27,8 +27,8 @@ setInterval(createSquare, 150)
 
 var typed = new Typed(".auto-type", {
     strings:["Kochana Mariolo, z okazji Walentynek chcę Ci podziękować za to,....", "że jesteś ze mną i że dzielimy ze sobą miłość, radość i trudne chwile.", "Nie wyobrażam sobie życia bez Ciebie. Kocham Cię bardzo...", "zawsze będę Cię kochał!"],
-    typeSpeed: 100,
-    backSpeed: 30,
+    typeSpeed: 70,
+    backSpeed: 70,
     loop: true,
-    shuffle: true,
+    shuffle: false,
 })
